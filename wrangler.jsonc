@@ -10,6 +10,9 @@
     "binding": "ASSETS",
     "directory": ".output/public"
   },
+  "observability": {
+    "enabled": true
+  },
   "no_bundle": true,
   "rules": [
     {
