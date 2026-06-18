@@ -8,6 +8,7 @@ export type TeamMember = {
 
 import shinuPhoto from "@/images/shinu.jpeg";
 import kiranPhoto from "@/images/kiran_kumar.png";
+import groupPhoto from "@/images/group_photo.jpeg";
 
 const BASE = "https://race.reva.edu.in/wp-content/uploads";
 
@@ -161,7 +162,7 @@ export const partnerLogos = [
 ];
 
 export const heroImages = {
-  campus: `${BASE}/RACE-img-about-1.png`,
+  campus: groupPhoto,
   infrastructure: `${BASE}/RACE-Aboutus-Infra.png`,
   founder: `${BASE}/2020/11/Founder_and_Chancellor_Dr._P._Shyama_Raju.jpg`,
   revaLogo: `${BASE}/2020/11/Reva-logo-1-1.png`,
